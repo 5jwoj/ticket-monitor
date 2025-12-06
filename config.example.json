@@ -1,0 +1,29 @@
+{
+    "telegram": {
+        "bot_token": "YOUR_BOT_TOKEN_HERE",
+        "chat_id": "YOUR_CHAT_ID_HERE"
+    },
+    "ticket": {
+        "url": "https://wap.lotsmall.cn/vue/detail/ticket?id=YOUR_ID&m_id=YOUR_M_ID&productId=YOUR_PRODUCT_ID&skuCode=YOUR_SKU_CODE",
+        "merchant_id": "YOUR_MERCHANT_ID",
+        "model_code": "YOUR_MODEL_CODE",
+        "external_code": "YOUR_EXTERNAL_CODE"
+    },
+    "monitor": {
+        "interval_seconds": 30,
+        "target_dates": [
+            "2025-12-07",
+            "2025-12-08"
+        ],
+        "target_sessions": [
+            "日场",
+            "夜场"
+        ]
+    },
+    "headers": {
+        "Cookie": "YOUR_COOKIE_FROM_PACKET_CAPTURE",
+        "access-token": "YOUR_ACCESS_TOKEN",
+        "sk": "YOUR_SK",
+        "sign": "YOUR_SIGN"
+    }
+}
